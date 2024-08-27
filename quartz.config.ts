@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🏃 Scribbles",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -71,6 +71,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+			Plugin.CrawlLinks({ markdownLinkResolution: 'shortest' })
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
