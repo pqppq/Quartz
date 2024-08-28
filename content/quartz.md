@@ -4,6 +4,7 @@ tags:
   - Quartz
   - Obsidian
   - Note-Taking
+date: 2024-08-27
 ---
 [Quartz](https://quartz.jzhao.xyz/)を使うことでObsidian PublishのようにObsidianで管理するマークダウンを静的サイトとしてデプロイできる. 以下を参考に作業をした.
 
