@@ -15,3 +15,5 @@ Wezterm + Tmux + Neovimでターミナルモードを使うときに、コマン
 	- LuaJIT 2.1.1713773202
 
 ![[assets/Pasted image 20240901122927.png]]
+
+issue: [Wezterm rendering is broken in master #336069](https://github.com/NixOS/nixpkgs/issues/336069)
